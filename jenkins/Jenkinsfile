@@ -26,5 +26,11 @@ pipeline {
                 echo "Another stage"
             }
         }
+
+        stage('Another Extra') {
+            steps {
+                echo "Another extra stage"
+            }
+        }
     }
 }
